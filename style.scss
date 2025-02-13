@@ -1,0 +1,39 @@
+.icon-eye {
+  filter: brightness(0) saturate(100%) invert(16%) sepia(39%) saturate(778%)
+    hue-rotate(190deg) brightness(95%) contrast(99%);
+}
+
+@font-face {
+  font-family: "GT Walsheim Pro Bold";
+  src: url("./assets/GTWalsheimProBold.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "GT Walsheim Pro";
+  src: url("./assets/GTWalsheimProRegular.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "GT Walsheim Pro Medium";
+  src: url("./assets/GTWalsheimProMedium.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "GT Walsheim Pro Light";
+  src: url("./assets/GTWalsheimProLight.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "GT America";
+  src: url("./assets/GTAmericaRegular.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
