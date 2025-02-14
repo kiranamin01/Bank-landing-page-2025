@@ -1,6 +1,5 @@
 .icon-eye {
-  filter: brightness(0) saturate(100%) invert(16%) sepia(39%) saturate(778%)
-    hue-rotate(190deg) brightness(95%) contrast(99%);
+  filter: brightness(0) saturate(100%) invert(16%) sepia(39%) saturate(778%) hue-rotate(190deg) brightness(95%) contrast(99%);
 }
 
 @font-face {
@@ -29,7 +28,23 @@
 }
 @font-face {
   font-family: "GT America";
-  src: url("./assets/GTAmerica-Regular.woff2") format("woff2");
+  src: url("./assets/GTAmericaRegular.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-} /*# sourceMappingURL=style.css.map */
+}
+.nav-2-right img,
+.nav-2-left img {
+  filter: brightness(0) saturate(100%) invert(18%) sepia(23%) saturate(3058%) hue-rotate(185deg) brightness(98%) contrast(103%);
+}
+.nav-2-right div,
+.nav-2-left div {
+  border-radius: 0.5rem;
+  border: 0.1px solid #0a2d67;
+  width: -moz-fit-content;
+  width: fit-content;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+}
+
+.download-app {
+  background-color: #dddfe9;
+}/*# sourceMappingURL=style.css.map */

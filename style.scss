@@ -37,3 +37,32 @@
   font-weight: normal;
   font-style: normal;
 }
+
+$hero-bg: #e9eaee;
+$btn-bg: #dddfe9;
+$btn-bg-new: #f0f1f5;
+$text-color: #273469;
+$text-color-light: #676b89;
+$bg-color: #ffffff;
+$bg-blue: #459af8;
+$nav-color: #0a2d67;
+
+.nav-2-right,
+.nav-2-left {
+  img {
+    filter: brightness(0) saturate(100%) invert(18%) sepia(23%) saturate(3058%)
+      hue-rotate(185deg) brightness(98%) contrast(103%);
+  }
+
+  div {
+    border-radius: 0.5rem;
+    border: 0.1px solid $nav-color;
+    width: fit-content;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px,
+      rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+  }
+}
+
+.download-app {
+  background-color: $btn-bg;
+}

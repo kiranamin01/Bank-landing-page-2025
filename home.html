@@ -8,66 +8,80 @@
     <link rel="stylesheet" href="style.css">
     <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
 </head>
-<body>
+<body class="text-[#273469]">
     <header class="header">
-        <!-- <nav class="nav-bar">
-            <section class="logo">
-                <h3 class="text-3xl font-mono font-bold"> <img class="w-15 h-15" src="./assets/images/fold.money-png/svg-image-12.png" alt="fold logo"> fold</h3>
-                <div class="ios-app">
-                <style>
-                    .ios-app img {
-                    filter: brightness(0) saturate(100%) invert(16%) sepia(39%) saturate(778%) hue-rotate(190deg) brightness(95%) contrast(99%);
-                    }
-                </style>
-                <img  class="w-20 h-20" src="./assets/images/fold.money-png/svg-image-13.png" alt="ios app">
-                <h3>iOS app</h3>
-                </div>
-                <div class="android-app">
-                <img src="./assets/images/fold.money-png/svg-image-14.png" alt="android app">
-                <h3>Android app</h3>
-                </div>
-                </section>
-                <section class="nav-2">
-                <style>
-                    .nav-2 img {
-                    filter: brightness(0) saturate(100%) invert(16%) sepia(39%) saturate(778%) hue-rotate(190deg) brightness(95%) contrast(99%);
-                    }
-                </style>
-                <div>
-                <img src="./assets/images/fold.money-png/svg-image-15.png" alt="team">
-                <h4>Team</h4>
-                </div>
-                <div>
-                <img src="./assets/images/fold.money-png/svg-image-16.png" alt="manifesto">
-                <h4>Manifesto</h4>
-                </div>
-                <div>
-                <img src="./assets/images/fold.money-png/svg-image-17.png" alt="blog">
-                <h4>Blog</h4>
-                </div>
-                <div>
-                <img src="./assets/images/fold.money-png/svg-image-18.png" alt="privacy">
-                <h4>Privacy</h4>
-                </div>
-                </section>
-        </nav> -->
-        
         <!-- NEW NAVBAR -->
          <nav>
             <h3 class="logo flex items-center text-center p-5 font-bold text-2xl
             "> <img class="w-10 h-10 m-2" src="./assets/images/fold.money-png/svg-image-12.png" alt="fold logo"> fold</h3>
          </nav>
+         <!-- LG screen -->
+         <nav class="nav-2 hidden lg:flex justify-between p-5 text-[#0a2d67]">
+            <div class="nav-2-left font-[GT_Walsheim_Pro]">
+                <section class="nav-2-left-sec">
+                    <div class="flex items-center p-2 my-3 cursor-pointer">
+                        <img class="w-7 h-7 mr-2" src="./assets/images/fold.money-png/svg-image-13.png" alt="android-app">
+                        <h4 class="text-lg">iOS app</h4>
+                    </div>
+                    <div class="flex items-center p-2 my-3 cursor-pointer">
+                        <img class="w-7 h-7 mr-2" src="./assets/images/fold.money-png/svg-image-14.png" alt="iOS app">
+                        <h4 class="text-lg">Android app</h4>
+                    </div>
+                </section>
+                
+            </div>
+            <div class="nav-2-right font-[GT_Walsheim_Pro]">
+                <section class="nav-2-right-sec">
+                    <div class="flex items-center p-2 my-3 cursor-pointer">
+                        <img class="w-7 h-7 mr-2" src="./assets/images/fold.money-png/svg-image-15.png" alt="team">
+                        <h4 class="text-lg">Team</h4>
+                    </div>
+                    <div class="flex items-center p-2 my-3 cursor-pointer">
+                        <img class="w-7 h-7 mr-2" src="./assets/images/fold.money-png/svg-image-16.png" alt="manifesto">
+                        <h4 class="text-lg">Manifesto</h4>
+                    </div>
+                    <div class="flex items-center p-2 my-3 cursor-pointer">
+                        <img class="w-7 h-7 mr-2" src="./assets/images/fold.money-png/svg-image-17.png" alt="blog">
+                        <h4 class="text-lg">Blog</h4>
+                    </div>
+                    <div class="flex items-center p-2 my-3 cursor-pointer">
+                        <img class="w-7 h-7 mr-2" src="./assets/images/fold.money-png/svg-image-18.png" alt="privacy">
+                        <h4 class="text-lg">Privacy</h4>
+                    </div>
+                </section>
+            </div>
+         </nav>
          <!-- END -->
     </header>
-    <main class="main flex flex-col items-center justify-center p-6">
-        <h2 class="text-6xl font-bold font-['GT_Walsheim_Pro_Bold'] py-2">Be painfully aware.</h2>
-        <p class="text-xl font-[GT_Walsheim_Pro] py-5 font-normal">
+    <section class="hero">
+        <div class="hero-art-img hidden lg:flex absolute w-2/8 h-2/6 items-center top-5 left-180">
+            <img class=""
+        src="./assets/images/hero-art.png" alt="hero-art">
+        </div>
+    </section>
+    <main class="main flex flex-col items-center justify-center p-6 lg:mx-120 lg:text-center lg:mt-15">
+        <h2 class="text-6xl font-bold font-['GT_Walsheim_Pro_Bold'] py-2 md:text-8xl">Be painfully aware.</h2> 
+        <p class="text-xl font-[GT_Walsheim_Pro] py-5 font-normal lg:mx-40 lg: lg:mb-0 lg:text-2xl">
             Track your expenses effortlessly with Fold's intuitive financial management tools.
             Make smarter investment decisions through our AI-powered advisory system.
         </p>
         <button class="w-[95%] bg-blue-950 rounded-lg text-white p-5 font-semibold text-xl
         my-10
-        hover:bg-blue-800">DOWNLOAD IOS APP</button>
+        hover:bg-blue-800
+        lg:hidden">DOWNLOAD IOS APP</button>
+
+        <!-- LG  -->
+        <div class="hidden lg:flex download-app w-[35%] bg-gray-300 rounded-lg text-white font-semibold
+        my-10 font-[GT_Walsheim_Pro_Medium]">
+            <div class="download-text m-2 lg:m-0 w-4/5 flex-col flex justify-center text-center">
+                <h3 class="text-xl text-gray-400 font-bold">Download Fold app</h3>
+                <h4 class="">currently in public beta</h4>
+            </div>
+            <div class="download-img">
+                <img class="w-[7rem] p-2" src="./assets/images/qr.png" alt="qr download" srcset="">
+            </div>
+           
+        </div>
     </main>
     <section class="app-view">
         <div class="app-container p-8">
