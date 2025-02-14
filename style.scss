@@ -48,7 +48,8 @@ $bg-blue: #459af8;
 $nav-color: #0a2d67;
 
 .nav-2-right,
-.nav-2-left {
+.nav-2-left,
+.feature-btn {
   img {
     filter: brightness(0) saturate(100%) invert(18%) sepia(23%) saturate(3058%)
       hue-rotate(185deg) brightness(98%) contrast(103%);

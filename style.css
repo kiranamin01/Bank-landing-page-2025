@@ -33,11 +33,13 @@
   font-style: normal;
 }
 .nav-2-right img,
-.nav-2-left img {
+.nav-2-left img,
+.feature-btn img {
   filter: brightness(0) saturate(100%) invert(18%) sepia(23%) saturate(3058%) hue-rotate(185deg) brightness(98%) contrast(103%);
 }
 .nav-2-right div,
-.nav-2-left div {
+.nav-2-left div,
+.feature-btn div {
   border-radius: 0.5rem;
   border: 0.1px solid #0a2d67;
   width: -moz-fit-content;
