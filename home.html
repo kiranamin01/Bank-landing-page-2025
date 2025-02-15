@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -22,7 +22,7 @@
         </h3>
       </nav>
       <!-- LG screen -->
-      <nav class="nav-2 hidden lg:flex justify-between p-5 text-[#0a2d67]">
+      <nav class="nav-2 hidden lg:flex justify-between lg:px-40 text-[#0a2d67]">
         <div class="nav-2-left font-[GT_Walsheim_Pro]">
           <section class="nav-2-left-sec">
             <div class="flex items-center p-2 my-3 cursor-pointer">
@@ -91,18 +91,19 @@
         <img class="" src="./assets/images/hero-art.png" alt="hero-art" />
       </div>
     </section>
+
     <main
       class="main flex flex-col items-center justify-center p-6 lg:mx-120 lg:text-center lg:mt-15"
     >
       <h2
-        class="text-6xl font-bold font-['GT_Walsheim_Pro_Bold'] py-2 md:text-8xl"
+        class="text-6xl font-bold font-['GT_Walsheim_Pro_Bold'] py-2 md:text-8xl lg:mt-8"
       >
         Be painfully aware.
       </h2>
       <p
         class="text-xl font-[GT_Walsheim_Pro] py-5 font-normal lg:mx-40 lg: lg:mb-0 lg:text-2xl"
       >
-        Track your expenses effortlessly with Fold's intuitive financial
+        Track your expenses effortlessly with Hold's intuitive financial
         management tools. Make smarter investment decisions through our
         AI-powered advisory system.
       </p>
@@ -114,7 +115,7 @@
 
       <!-- LG  -->
       <div
-        class="hidden lg:flex download-app w-[35%] bg-gray-300 rounded-lg text-white font-semibold my-10 font-[GT_Walsheim_Pro_Medium]"
+        class="hidden lg:flex download-app w-[35%] bg-gray-300 hover:bg-gray-600 rounded-lg text-white font-semibold my-10 font-[GT_Walsheim_Pro_Medium]"
       >
         <div
           class="download-text m-2 lg:m-0 w-4/5 flex-col flex justify-center text-center"
@@ -124,10 +125,9 @@
         </div>
         <div class="download-img">
           <img
-            class="w-[7rem] p-2"
+            class="w-[7rem] p-2 hover:scale-200"
             src="./assets/images/qr.png"
             alt="qr download"
-            srcset=""
           />
         </div>
       </div>
@@ -188,7 +188,7 @@
     <!---------------------- Features ----------------------------------------->
 
     <section class="feature flex w-full justify-evenly">
-      <div class="feature-img w-2/6 flex justify-end">
+      <div class="hidden lg:flex feature-img lg:w-2/6 lg:justify-end">
         <img
           class="w-4/6 flex"
           src="./assets/images/feature-ss.png"
@@ -196,12 +196,12 @@
           srcset=""
         />
       </div>
-      <div class="feature-text w-2/4 p-20">
+      <div class="feature-text p-10 lg:w-2/4 lg:p-20">
         <img
           src="./assets/images/fold.money-png/svg-image-43.png"
           alt="feature-text-img"
         />
-        <h2 class="text-5xl font-[GT_Walsheim_Pro_Bold] my-3">
+        <h2 class="text-5xl font-[GT_Walsheim_Pro_Bold] my-8 lg:my-3">
           Stop recording expenses manually.
         </h2>
         <div
@@ -222,7 +222,7 @@
             <h3 class="">No SMS scraping</h3>
           </button>
         </div>
-        <p class="text-2xl font-[GT_Walsheim_Pro] my-6">
+        <p class="text-xl lg:text-2xl font-[GT_Walsheim_Pro] my-6">
           Its easy to forget, fall off the wagon, and miss. Its hard to be
           diligent with expense tracking when you have to do it manually. Fold
           automatically pulls your expenses from your Bank accounts and
@@ -234,16 +234,16 @@
 
     <!-- FEATURE 2  -->
 
-    <section class="border-2 border-blue-950/100">
+    <section class="border border-blue-950/10">
       <div
-        class="feature-2-container flex flex-col justify-center items-center my-40 mx-90 text-center"
+        class="feature-2-container flex flex-col justify-center items-center p-10 my-20 lg:my-40 lg:mx-90 text-center"
       >
         <img
           class="my-5"
           src="./assets/images/fold.money-png/svg-image-43.png"
           alt=""
         />
-        <h2 class="font-[GT_Walsheim_Pro_Bold] text-5xl px-60">
+        <h2 class="font-[GT_Walsheim_Pro_Bold] text-5xl lg:text-6xl lg:px-60">
           More than a row in a spreadsheet.
         </h2>
         <p class="font-[GT_Walsheim_Pro] text-2xl my-10 text-[#676b89]">
@@ -254,28 +254,34 @@
 
     <!------------------------- FEATURES 3  -------------------->
 
-    <section>
-      <div class="feature-3-container w-full flex justify-evenly px-40 my-20">
+    <section class="lg:w-full lg:flex p-10 lg:p-0">
+      <div
+        class="feature-3-container lg:w-full lg:flex lg:justify-evenly lg:px-40 lg:mt-20"
+      >
         <div
-          class="feature-3-left w-2/4 flex flex-col justify-items-center pl-40 my-20"
+          class="feature-3-left lg:p-5 lg:py-18 lg:w-2/4 lg:flex lg:flex-col lg:justify-items-center lg:pl-40 lg:my-10"
         >
           <img
-            class="my-5 w-[9%]"
+            class="my-5 w-[22%] lg:w-[9%]"
             src="./assets/images/fold.money-png/svg-image-43.png"
-            alt=""
+            alt="icon"
           />
-          <h2 class="font-[GT_Walsheim_Pro_Bold] text-8xl">
+          <h2 class="font-[GT_Walsheim_Pro_Bold] text-6xl lg:text-8xl">
             Inform & Delight.
           </h2>
-          <p class="font-[GT_Walsheim_Pro] text-2xl my-10 mr-10 text-[#676b89]">
+          <p
+            class="font-[GT_Walsheim_Pro] text-xl text-start my-10 lg:text-2xl lg:my-10 lg:mr-10 text-[#676b89]"
+          >
             Understand your financial health without drowning in numbers. Each
-            nosedive, each swooping rise and each <br />
-            calmplateau gives real actionable insights. Take decisions, backed
-            by Fold.
+            nosedive, each swooping rise and each
+            <br class="hidden lg:block" />calmplateau gives real actionable
+            insights. Take decisions, backed by hold.
           </p>
         </div>
 
-        <div class="feature-3-right w-3/4 relative overflow-hidden">
+        <div
+          class="feature-3-right lg:block hidden lg:w-3/4 relative overflow-hidden"
+        >
           <img
             class="w-[60%] absolute left-50 -top-0"
             src="./assets/images/phone-dark.png"
@@ -285,7 +291,63 @@
       </div>
     </section>
 
-    <section class="message flex justify-center items-center p-1">
+    <!-------------------------- message 2  --------------------->
+    <section
+      class="bg-[#20294c] text-white flex flex-col justify-evenly lg:px-80 lg:py-30 font-[GT_Walsheim_Pro_Medium]"
+    >
+      <div class="link-tab flex items-center w-full m-5 lg:my-5">
+        <img
+          class="hidden md:w-[15%] lg:w-[6%] mr-6"
+          src="./assets/images/fold.money-png/svg-image-45.png"
+          alt="img-train"
+        />
+        <div
+          class="link-type flex w-[95%] m-2 p-2 bg-white lg:w-4/6 text-blue-950 lg:p-4 rounded-xl items-center"
+        >
+          <img
+            class="w-[6%] mr-3 lg:w-[5%] lg:mr-5"
+            src="./assets/images/fold.money-png/padlock.png"
+            alt="lock"
+          />
+          <h3 class="text-xl w-2/3">
+            <span class="text-gray-400">https://</span>view.money
+          </h3>
+          <button
+            class="text-xs lg:text-lg border rounded-full p-2 lg:p-2 font-[GT_Walsheim_Pro_Medium] lg:ml-15"
+          >
+            Early Alpha
+          </button>
+        </div>
+      </div>
+
+      <div class="message-2 my-20">
+        <h1
+          class="text-6xl lg:text-8xl font-[GT_Walsheim_Pro_Bold] px-10 lg:px-30 lg:leading-21"
+        >
+          Never visit your Bank’s website <br />again.
+        </h1>
+      </div>
+
+      <div class="message-2-p flex w-full lg:items-center lg:relative">
+        <p class="p-10 pt-0 lg:w-2/6 lg:pl-25 text-xl lg:text-end">
+          As great as our bank’s infrastructures are, they still haven’t caught
+          up with the rest of the industry, software wise. Good thing, they
+          don’t have to anymore.
+        </p>
+        <img
+          class="hidden lg:block w-3/5 rounded-3xl absolute left-110 -top-10"
+          src="./assets/images/fold.money-png/msg-img.jpeg"
+          alt="msg-img2"
+        />
+      </div>
+    </section>
+
+    <!--------------------------- BLANK DIV LG  -->
+
+    <section class="blank-sec hidden lg:block w-full h-[15rem]"></section>
+
+    <!--------------------------- MESSAGE ----------------------------->
+    <section class="message flex justify-center items-center p-1 mt-4">
       <div class="w-[90%] bg-gray-100 rounded-2xl p-5">
         <img
           class="icon-eye w-8 h-8 m-1"
@@ -300,6 +362,7 @@
       </div>
     </section>
 
+    <!-- FOOTER  -->
     <footer class="flex justify-center items-center flex-col m-3">
       <div
         class="footer-links text-xl flex flex-col gap-4 p-8 bg-gray-100 text-blue-500 font-[GT_Walsheim_Pro_Medium] text-center rounded-2xl w-[95%]"
@@ -324,7 +387,7 @@
       <div class="footer-end text-center bg-gray-100 rounded-2xl m-3 p-4">
         <p class="text-gray-500 text-sm mt-4">Designed by fold.money</p>
         <p class="text-gray-500 text-sm">
-          Clone created by Kiran Amin - December 14, 2025
+          Clone created by Kiran Amin - February 12, 2025
         </p>
       </div>
     </footer>
